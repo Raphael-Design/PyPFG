@@ -1,0 +1,22 @@
+Fractal Project
+
+Class Fractal  --> Classe para gerar o fractal e salvar a imagem
+
+	Variaveis configuração da imagem
+    imagem = [] --> Array de pixels onde a imagem final estara
+    comprimento_imagem = 0 --> Comprimento em pixels da imagem
+    largura_imagem = 0 --> Largura em pixels da imagem
+    coord_min_x = 0.0 --> Coordenadas da imagem no plano complexo
+    coord_max_x = 0.0 --> Coordenadas da imagem no plano complexo
+    coord_min_y = 0.0 --> Coordenadas da imagem no plano complexo
+    coord_max_y = 0.0 --> Coordenadas da imagem no plano complexo
+    Numero_Maximo_Iteracoes = 0 --> Iterações da equação fractal
+    Numero_Processos = 3 --> Numero de processos paralelismo
+
+	Variaveis da equação
+    Condição de parada = "abs(z*z) > 4":
+    Equação = "cmath.sin(z*z)*cmath.cos(c)"
+    color_r = "i"
+    color_g = "int((i*50)%256)"
+    color_b = "255 - i"
+    

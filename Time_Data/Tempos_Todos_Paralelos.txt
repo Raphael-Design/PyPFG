@@ -1,0 +1,1 @@
+cpu_count--size_value--iter_value--parallel time pixel--parallel time

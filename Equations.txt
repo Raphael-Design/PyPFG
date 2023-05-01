@@ -1,0 +1,21 @@
+#if abs(z) > 16.0:
+#    return i
+#z = (z*z) + c
+#z = 1.5*(c/cmath.pi)*i*cmath.exp(z)
+
+#if abs(z) > 0.1:
+#    return i
+#z = (z*z) + c
+#z = 0.007*c*i*cmath.exp(z)
+#z = z * cmath.sin(z)
+
+
+if abs(z*z) > 4:
+    return i
+#z = (z*z) + c
+#z = (c + 10*z*cmath.pi)/2*z
+
+
+if abs(z*z) > 4:
+    return i
+z = cmath.sin(z*z)*cmath.cos(c)
